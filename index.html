@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+    <title>Bella Lash</title>
+  </head>
+  <body>
+    <div class="custom-container">
+      <h1>Bella Lash</h1>
+      <form>
+        <h3>Enter your name and age</h3>
+        <input type="text" id="inputName" class="form-control push-top" placeholder="Name" value="" required>
+        <input type="number" id="inputAge" class="form-control push-top" placeholder="Age" size="8" value="">
+        <input id="addButton" class="btn btn-primary  push-top" type="submit" value="add">
+        <input id="clearButton" class="btn btn-danger push-top" type="submit" value="clear"><br>
+      </form>
+      <table>
+        <tbody id="table">
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
